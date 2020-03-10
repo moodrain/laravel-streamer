@@ -1,0 +1,26 @@
+{
+    "name": "moodrain/laravel-streamer",
+    "type": "library",
+    "description": "simply stream video file from local",
+    "require": {
+        "laravel/framework": ">= 5.0",
+        "php": ">= 7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Moodrain\\LaravelStreamer\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Moodrain\\LaravelStreamer\\ServiceProvider"
+            ],
+            "alias": [
+                "Moodrain\\LaravelStreamer\\Facade"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
