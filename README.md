@@ -14,7 +14,7 @@ class Controller {
 }
 ```
 
-or see [demo]('https://github.com/moodrain/laravel-streamer-demo')
+or see [demo](https://github.com/moodrain/laravel-streamer-demo)
 
 #### Config
 
