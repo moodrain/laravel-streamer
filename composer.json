@@ -2,6 +2,7 @@
     "name": "moodrain/laravel-streamer",
     "type": "library",
     "description": "simply stream video file from local",
+    "license": "MIT",
     "require": {
         "laravel/framework": ">= 5.0",
         "php": ">= 7.0"
